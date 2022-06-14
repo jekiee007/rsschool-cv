@@ -33,6 +33,7 @@ ul {
 
 .page {
   display: flex;
+  height: 100%;
   flex-direction: column;
   background-color: rgb(245, 255, 158);
   width: 100%;
@@ -70,7 +71,7 @@ ul {
   align-self: center;
   width: 80%;
   height: auto;
-  border-radius: 50%;
+  border-radius: 15%;
   padding: 5px;
 }
 
@@ -107,6 +108,10 @@ ul {
   color: #fff;
   margin: 0;
   padding: 0;
+}
+
+.code_example__summary{
+  cursor: pointer;
 }
 
 .courses {
