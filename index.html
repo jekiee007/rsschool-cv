@@ -1,135 +1,140 @@
-test text
-
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV</title>
+    <link rel="stylesheet" href="./pages/index.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>CV</title>
-  <link rel="stylesheet" href="./pages/index.css" />
-</head>
+  <body class="page">
+    <div class="wrapper">
+      <aside class="left_column">
+        <img src="./images/ava_compressed.jpg" alt="it's me" class="avatar" />
 
-<body class="page">
-  <div class="wrapper">
-    <aside class="left_column">
-      <img src="./images/ava_compressed.jpg" alt="it's me" class="avatar" />
+        <ul class="non-bulleted_list">
+          <li>
+            <h2>Contacts</h2>
+          </li>
+          <li>
+            <h4>Phone:</h4>
+            <p>+375 (29) 760-78-56</p>
+          </li>
+          <li>
+            <h4>e-mail:</h4>
+            <p><a href="mailto:jekiee007@yandex.by"> jekiee007@yandex.by</a></p>
+          </li>
+          <li>
+            <h4>LinedIn:</h4>
+            <p>
+              <a
+                href="https://www.linkedin.com/in/евгений-гук-8a03b5125"
+                target="_blank"
+                >To my LinkedIn</a
+              >
+            </p>
+          </li>
+          <li>
+            <h4>GitHub:</h4>
+            <p>
+              <a href="https://github.com/jekiee007" target="_blank"
+                >To my GitHub</a
+              >
+            </p>
+          </li>
+        </ul>
 
-      <ul class="non-bulleted_list">
-        <li>
-          <h2>Contacts</h2>
-        </li>
-        <li>
-          <h4>Phone:</h4>
-          <p>+375 (29) 760-78-56</p>
-        </li>
-        <li>
-          <h4>e-mail:</h4>
-          <p><a href="mailto:jekiee007@yandex.by"> jekiee007@yandex.by</a></p>
-        </li>
-        <li>
-          <h4>LinedIn:</h4>
-          <p>
-            <a href="https://www.linkedin.com/in/евгений-гук-8a03b5125" target="_blank">To my LinkedIn</a>
-          </p>
-        </li>
-        <li>
-          <h4>GitHub:</h4>
-          <p>
-            <a href="https://github.com/jekiee007" target="_blank">To my GitHub</a>
-          </p>
-        </li>
-      </ul>
-
-      <ul class="non-bulleted_list">
-        <li>
-          <h2>Languages</h2>
-        </li>
-        <li>
-          <h4>Enlish (elementary)</h4>
-        </li>
-        <li>
-          <h4>Russian (native)</h4>
-        </li>
-      </ul>
-    </aside>
-    <div class="right_column">
-      <ul class="non-bulleted_list">
-        <li class="name">
-          <h1>Yauheni Huk</h1>
-          <h3 class="cv_role">RS school student</h3>
-        </li>
-        <li class="about_myself">
-          <h2>About myself</h2>
-          <p>
-            I'm an engineer in Electrical-energy industry. I didn't get a lot
-            of satisfaction at work and decided to try programming. And now
-            I'm studying at RS school :)
-          </p>
-        </li>
-        <li class="skills_and_proficiency">
-          <h2>Skills and Proficiency</h2>
-          <ul class="bulleted_list">
-            <li>
-              <h4>HTML5, CSS3</h4>
-            </li>
-            <li>
-              <h4>JavaScript Basics</h4>
-            </li>
-            <li>
-              <h4>Git, GitHub</h4>
-            </li>
-            <li>
-              <h4>VS Code</h4>
-            </li>
-          </ul>
-        </li>
-        <li class="code_example">
-          <h2>Code example</h2>
-          <details>
-            <summary class="code_example__summary">
-              Calculate century from year
-            </summary>
-            <pre class="code_example__examples">
+        <ul class="non-bulleted_list">
+          <li>
+            <h2>Languages</h2>
+          </li>
+          <li>
+            <h4>Enlish (elementary)</h4>
+          </li>
+          <li>
+            <h4>Russian (native)</h4>
+          </li>
+        </ul>
+      </aside>
+      <div class="right_column">
+        <ul class="non-bulleted_list">
+          <li class="name">
+            <h1>Yauheni Huk</h1>
+            <h3 class="cv_role">RS school student</h3>
+          </li>
+          <li class="about_myself">
+            <h2>About myself</h2>
+            <p>
+              I'm an engineer in Electrical-energy industry. I didn't get a lot
+              of satisfaction at work and decided to try programming. And now
+              I'm studying at RS school :)
+            </p>
+          </li>
+          <li class="skills_and_proficiency">
+            <h2>Skills and Proficiency</h2>
+            <ul class="bulleted_list">
+              <li>
+                <h4>HTML5, CSS3</h4>
+              </li>
+              <li>
+                <h4>JavaScript Basics</h4>
+              </li>
+              <li>
+                <h4>Git, GitHub</h4>
+              </li>
+              <li>
+                <h4>VS Code</h4>
+              </li>
+            </ul>
+          </li>
+          <li class="code_example">
+            <h2>Code example</h2>
+            <details>
+              <summary class="code_example__summary">
+                Calculate century from year
+              </summary>
+              <pre class="code_example__examples">
       // century from year
       let century = (year) => year % 100 ? Math.trunc(year/100) + 1 : year/100;
               </pre>
-          </details>
-        </li>
-        <li class="courses">
-          <h2>Courses</h2>
-          <ul class="non-bulleted_list">
-            <li>
-              <h4>It STEP Academy "Android development"</h4>
-            </li>
-          </ul>
-          <h2 class="code_example">Education</h2>
-          <ul class="non-bulleted_list">
-            <li>
-              <h4>Belarusian National Technical University (BNTU), Power Engineering Faculty (2001-2008)</h4>
-            </li>
-          </ul>
-        </li>
-      </ul>
-    </div> -->
+            </details>
+          </li>
+          <li class="courses">
+            <h2>Courses</h2>
+            <ul class="non-bulleted_list">
+              <li>
+                <h4>It STEP Academy "Android development"</h4>
+              </li>
+            </ul>
+            <h2 class="code_example">Education</h2>
+            <ul class="non-bulleted_list">
+              <li>
+                <h4>
+                  Belarusian National Technical University (BNTU), Power
+                  Engineering Faculty (2001-2008)
+                </h4>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
 
-    <!-- <div class="about_myself"></div> -->
-    <!-- <div class="skill_and_proficiency"></div>
-
-  </div>
-  <footer class="footer">
-    <a href="https://github.com/jekiee007" target="_blank" class="footer_img">
-      <img src="./images/github.svg" alt="alt" class="image" /></a>
-    <p style="text-indent: 0">2021</p>
-    <a href="https://rs.school/js/" target="_blank" class="footer_img">
-      <img src="./images/rs_school_js.svg" alt="alt" class="image" />
-    </a>
-  </footer>
-  <script>
-    console.log("score: 150 / 150 ")
-  </script>
-</body>
-
-</html> -->
+      <div class="about_myself"></div>
+      <div class="skill_and_proficiency"></div>
+    </div>
+    <footer class="footer">
+      <a href="https://github.com/jekiee007" target="_blank" class="footer_img">
+        <img src="./images/github.svg" alt="alt" class="image"
+      /></a>
+      <p style="text-indent: 0">2022</p>
+      <a href="https://rs.school/js/" target="_blank" class="footer_img">
+        <img src="./images/rs_school_js.svg" alt="alt" class="image" />
+      </a>
+    </footer>
+    <script>
+      console.log("score: 150 / 150 ");
+    </script>
+  </body>
+</html>
